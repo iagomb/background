@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    background-color: var(--bg-card);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 14.8rem;
+    width: 100%;
+    height: 100vh;    
+}
+
+.container p {
+    font-size: 2.4rem;
+    line-height: 3.62rem;
+
+    margin-bottom: 2.2rem;
+}
+
+.card {
+    width: 43.8rem;
+    
+    height: 69.3rem;
+    border: solid var(--bg);
+    border-width: 2.5rem 1.6rem;
+    border-radius: 5rem;
+    
+    overflow: hidden;
+
+    position: relative;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 3.77rem 3.3rem 1.17rem;
+
+    
+}
+
+.logo h1{
+    font-size: 2.4rem;
+    line-height: 3.62rem;
+}
+
+.logo .logoImg {
+    height: 5.4rem;
+    width: 5.4rem;
+    border-radius: 50%;
+    border: 1px solid var(--text);
+}
+
+main {
+    position: relative;
+}
+
+main .avatar {
+    width: 37.2rem;
+    height: 37.2rem;
+
+    border-radius: 50%;
+    border: 10px solid var(--text);
+
+    position: absolute;
+
+    top: 50%;
+    right: -20%; 
+}
+
+
+.links {
+    background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+    border-radius: 50px;
+    display: grid;
+    gap: .81rem;
+    position: absolute;
+    top: 20rem;
+    left: 0;
+
+    width: 20.3rem;
+    height: 19.47rem;
+
+    margin-left: 2.11rem;
+    padding: 3rem 2rem;
+
+    margin-bottom: 3.44rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+
+    
+}
+
+.link strong , .link span {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    
+    bottom: 0;
+    right: -190px;
+
+    z-index: 0;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+footer p img {
+    width: 2.8rem;
+    height: 3.4rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons p {
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+button, a {
+    background-color: var(--bg);
+    padding: 2rem 4.7rem;
+
+    border-radius: 15px;
+    border: 2px solid var(--border-button);
+
+    font-size: 1.5rem;
+    line-height: 2.26rem;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #080a0e;
+}
+
+
+
